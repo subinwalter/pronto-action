@@ -12,12 +12,12 @@ gem 'pronto-rails_best_practices', require: false
 gem 'pronto-rubocop', require: false
 gem 'pronto-scss', require: false
 gem 'pronto-slim_lint', require: false
-gem 'rubocop', '= 0.81.0', require: false
+gem 'rubocop', '= 0.89.1', require: false
 
 # Rubocop Extentions
 # see https://github.com/rubocop-hq/rubocop/blob/master/manual/extensions.md
 gem 'rubocop-performance', require: false
-gem 'rubocop-rails', '= 2.0.1', require: false
+gem 'rubocop-rails', require: false
 gem 'rubocop-rspec', require: false
 gem 'rubocop-thread_safety', require: false
 gem 'rubocop-require_tools', require: false
