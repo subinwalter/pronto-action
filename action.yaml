@@ -27,5 +27,5 @@ inputs:
     default: '.'
 runs:
   using: 'docker'
-  image: docker://subinwalter/pronto-action:v1
+  image: docker://subinwalter/pronto-action:v2
   entrypoint: '/pronto/entrypoint.sh'
